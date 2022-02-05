@@ -4,4 +4,12 @@ This code stitches YOLO predictions. I partitioned a large image of immunofluore
 
 ## Need
 
-Currently, the stitching program preserves all predictions. This results in some cells being detected twice; when a cell falls right in between where two subimages meet, the cell is detected in both and the stitching counts them as both. It is not a huge issue, one could easily go into the SVG file and manually delete it, but that's annoying. If someone has any suggestions, I'm all ears. 
+Currently, the stitching program preserves all predictions. This results in some cells being detected twice; when a cell falls right in between where two subimages meet, the cell is detected in both and the stitching counts them as both. 
+
+![alt text](https://github.com/alexarnal/stitch_YOLOv5_detections/main/394.png?raw=true)
+
+![alt text](https://github.com/alexarnal/stitch_YOLOv5_detections/main/395.png?raw=true)
+
+![alt text](https://github.com/alexarnal/stitch_YOLOv5_detections/main/double.png?raw=true)
+
+It is not a huge issue, one could easily go into the SVG file and manually delete it, but that's annoying. If someone has any suggestions, I'm all ears. 
